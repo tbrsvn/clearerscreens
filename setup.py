@@ -12,11 +12,10 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'mypackage'
-DESCRIPTION = 'My short description for my project.'
-URL = 'https://github.com/me/myproject'
-EMAIL = 'me@example.com'
-AUTHOR = 'Awesome Soul'
+NAME = 'clearerscreens'
+DESCRIPTION = 'This is a very simple library that clears screens according to which OS you have with the system clear function in os'
+URL = 'https://github.com/Norok-The-Diablo/clearerscreens'
+AUTHOR = 'Toma Brasoveanu'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = '0.1.0'
 
