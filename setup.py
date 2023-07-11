@@ -99,10 +99,9 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     author=AUTHOR,
-    author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
+    py_modules=['clearerscreens'],
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['mypackage'],
 
